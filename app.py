@@ -27,5 +27,5 @@ def predict():
      data='person is dibatic'
     return render_template('predict.html',data=data)
 
-    if __name__=="__main__"
+    if __name__=="__main__":
       app.run(debug=True)
